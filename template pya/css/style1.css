@@ -1,0 +1,88 @@
+body {
+font-family: 'Poppins', Arial, sans-serif; /* FONT BARU */
+margin: 0;
+padding: 0;
+}
+
+/* TAMBAHAN: FONT JUDUL */
+h1, h2, h3 {
+font-family: 'Playfair Display', serif;
+letter-spacing: 1px;
+}
+
+header {
+background-color: #c7bae7;
+color: #fff;
+padding: 10px;
+text-align: center;
+}
+
+/* TAMBAHAN: NAV BIAR LEBIH ELEGAN */
+header nav ul li a {
+font-family: 'Poppins', sans-serif;
+letter-spacing: 0.5px;
+}
+
+header nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+header nav ul li {
+display: inline;
+margin: 0px 10px;
+border-right: 1px dotted #f9f9f9;
+padding-right: 20px;
+}
+
+header nav ul li a:hover {
+font-weight: bold;
+}
+
+header nav ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+section {
+padding: 50px 0;
+text-align: center;
+}
+
+.container {
+max-width: 900px;
+margin: auto;
+}
+
+/* TAMBAHAN: TEKS MENU LEBIH SOFT */
+.menu-item {
+font-family: 'Poppins', sans-serif;
+}
+
+.menu-item img {
+max-width: 40%;
+border-radius: 10px;
+}
+
+#hours {
+background-color: #f9f9f9;
+padding: 50px 0;
+}
+
+/* TAMBAHAN: JAM OPERASIONAL LEBIH ELEGAN */
+#hours p {
+font-size: 18px;
+margin: 5px 0;
+font-family: 'Poppins', sans-serif;
+}
+
+footer {
+background-color: #dfd9ed;
+color: #b89ac2;
+text-align: center;
+padding: 2px;
+position: fixed;
+bottom: 0;
+width: 100%;
+font-family: 'Poppins', sans-serif; /* TAMBAHAN */
+}

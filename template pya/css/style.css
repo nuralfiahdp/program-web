@@ -1,0 +1,227 @@
+*{
+box-sizing: border-box;
+}
+
+/* BODY */
+body{
+font-family: 'Poppins', Arial, Helvetica, sans-serif;
+margin: 0;
+background: #b9a4ea;
+}
+
+/* JUDUL */
+h1, h2, h3{
+font-family: 'Playfair Display', serif;
+letter-spacing: 1px;
+}
+
+/* CONTAINER */
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+/* LOGIN */
+.login-box{
+margin-top: 150px;
+flex-basis: 400px;
+background: #beaadf;
+padding: 20px;
+border-radius: 15px;
+}
+
+.login-box h2{
+border-bottom: 1px solid #c39ac6;
+color: #4b2e83;
+text-align: center;
+padding-bottom: 30px;
+margin: 0 0 20px;
+}
+
+/* INPUT */
+input, select{
+width: 100%;
+padding: 15px 20px;
+margin: 8px 0;
+border: 1px solid #ddaffa;
+border-radius: 8px;
+}
+
+/* BUTTON */
+input[type=submit]{
+background-color: #7b4bcc;
+border: none;
+color: #fff;
+cursor: pointer;
+border-radius: 8px;
+}
+
+/* HEADER */
+header{
+background: #7b4bcc;
+color: #fff;
+padding: 15px 20px;
+font-size: 20px;
+}
+
+/* SIDEBAR */
+aside{
+flex: 20%;
+background: #b184d6;
+padding: 15px;
+}
+
+/* MAIN */
+section.main{
+flex: 80%;
+background: #d6a7d5;
+min-height: 530px;
+padding: 20px;
+flex-grow: 1;
+border-radius: 10px;
+}
+
+/* FOOTER */
+footer{
+background: #e6d9f5;
+color: #4b2e83;
+padding: 20px;
+text-align: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 700px){
+.container{
+flex-direction: column;
+}
+}
+
+/* MENU */
+.menu{
+padding: 0;
+margin: 0;
+}
+
+.menu li{
+list-style: none;
+margin-bottom: 12px; /* JARAK ANTAR MENU */
+}
+
+.menu a{
+display: block;
+padding: 15px 20px;
+color: #2d1b4e;
+text-decoration: none;
+font-weight: 500;
+border-radius: 12px; /* SUDUT MELENGKUNG */
+transition: 0.3s;
+background: rgba(255,255,255,0.3);
+}
+
+/* HOVER */
+.menu a:hover{
+background: #a88beb;
+color: #fff;
+}
+
+/* ACTIVE MENU */
+.menu a.active{
+background: #5a35b1;
+color: #fff;
+font-weight: bold;
+}
+
+/* JUDUL HALAMAN */
+.judul{
+color: #4b2e83;
+border-bottom: 1px solid #d6b9dc;
+padding-bottom: 15px;
+font-weight: bold;
+}
+
+/* TABLE */
+.table{
+width: 100%;
+margin-top: 20px;
+border-collapse: collapse;
+background: #fff;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.table th, .table td{
+border: 1px solid #f3c3ed;
+padding: 15px;
+}
+
+.table th{
+background: #d9a6d5;
+}
+
+/* TOMBOL */
+.tombol{
+display: inline-block;
+padding: 12px 25px;
+color: #fff;
+text-decoration: none;
+background: #7b4bcc;
+cursor: pointer;
+border-radius: 20px;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.tombol:hover{
+background: #5a35b1;
+}
+
+.tombol.edit, .tombol.hapus{
+padding: 8px 12px;
+font-size: 12px;
+}
+
+.tombol.hapus{
+background: #fc4c4c;
+}
+
+/* FORM */
+.form-group{
+clear: both;
+margin-bottom: 10px;
+}
+
+.form-group label{
+display: block;
+padding: 10px 0;
+float: left;
+width: 30%;
+font-weight: bold;
+}
+
+.form-group .input{
+display: block;
+width: 50%;
+float: left;
+}
+
+input[type=radio]{
+width: auto;
+margin-right: 5px;
+}
+
+.tombol.simpan{
+background: #7b4bcc;
+}
+
+.tombol.reset{
+background: #c09ce5;
+}
+
+/* RESPONSIVE FORM */
+@media (max-width: 700px){
+.form-group label, 
+.form-group .input{
+width: 100%;
+}
+}
